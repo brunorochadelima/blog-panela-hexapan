@@ -1,0 +1,18 @@
+@import "styles/variaveis.scss";
+
+.card {
+  width: 100%;
+  max-width: 436px;
+  
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    color: $dark;
+  }
+
+  p {
+    color: $grey;
+  }
+}
