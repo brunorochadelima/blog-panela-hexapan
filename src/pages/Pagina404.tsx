@@ -14,7 +14,7 @@ export default function Pagina404() {
           <img src={imagem404} alt="Erro 404" />
           <p>Não encontramos esta página! 😞</p>
           <Link to="/" className={styles.botao__voltar}>
-            <button>Quero Voltara para a página inicial</button>
+            <button>Quero voltar para a página inicial</button>
           </Link>
         </div>
       </div>
