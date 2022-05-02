@@ -4,7 +4,7 @@ import InputSearch from "components/InputSearch";
 import React from "react";
 import styles from "../pages/Home.module.scss";
 
-function App() {
+function Home() {
   const [busca, setBusca] = React.useState("")
   return (
     <div>
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

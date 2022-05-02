@@ -4,12 +4,13 @@ import styles from "../components/Header.module.scss";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div></div>
-      <img className={styles.logo} src={logo} alt="Logo Hexapan" />
+      <Link to="/"><img className={styles.logo} src={logo} alt="Logo Hexapan" /></Link>
 
       <div className={styles.social_icons}>
         <a
