@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "pages/Home";
 import Pagina404 from "pages/Pagina404";
-import Header from "components/Header";
+
 
 export default function App() {
   return (
