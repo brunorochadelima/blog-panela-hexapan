@@ -5,10 +5,10 @@ import React from "react";
 import styles from "../pages/Home.module.scss";
 
 function Home() {
-  const [busca, setBusca] = React.useState("")
+  const [busca, setBusca] = React.useState("");
   return (
     <div>
-      <Header/>
+      <Header />
       <div className={styles.container}>
         <div className={styles.centralizar}>
           <h1 className={styles.titulo_destaque}>
@@ -18,9 +18,9 @@ function Home() {
           <p className={styles.subtitulo_destaque}>
             A união perfeita da tecnologia com o design
           </p>
-          <InputSearch busca={busca} setBusca={setBusca}/>
+          <InputSearch busca={busca} setBusca={setBusca} />
         </div>
-        <GridCards busca={busca}/>
+        <GridCards busca={busca} />
       </div>
     </div>
   );

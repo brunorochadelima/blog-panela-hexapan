@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "components/Cards/Card.module.scss";
-import cards from "./cards.json"
+import cards from "./cards.json";
 
-type Props = typeof cards[0]
+type Props = typeof cards[0];
 
 export default function Card(props: Props) {
-  const {photo, date, title, description} = props
+  const { photo, date, title, description } = props;
 
   return (
     <div className={styles.card}>
