@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from 'assets/logo.svg';
-import styles from '../components/Header.module.scss';
+import styles from './Header.module.scss';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiOutlineFacebook } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';

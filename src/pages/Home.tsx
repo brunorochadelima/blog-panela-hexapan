@@ -9,7 +9,6 @@ function Home() {
   const [busca, setBusca] = React.useState('');
   return (
     <div>
-      <Header />
       <div className={styles.container}>
         <div className={styles.centralizar}>
           <h1 className={styles.titulo_destaque}>

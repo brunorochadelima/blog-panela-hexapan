@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from 'assets/logo-hexapan-branco.svg';
-import styles from 'components/Footer.module.scss';
+import styles from './Footer.module.scss';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiOutlineFacebook } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
