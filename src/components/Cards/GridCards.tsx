@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import cards from './cards.json';
+import cards from 'data/cards.json';
 import styles from 'components/Cards/GridCards.module.scss';
 
 interface Props {

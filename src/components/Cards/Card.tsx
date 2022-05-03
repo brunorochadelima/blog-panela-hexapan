@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'components/Cards/Card.module.scss';
-import cards from './cards.json';
+import cards from 'data/cards.json';
 
 type Props = typeof cards[0];
 
