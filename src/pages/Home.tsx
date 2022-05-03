@@ -22,7 +22,6 @@ function Home() {
         </div>
         <GridCards busca={busca} />
       </div>
-      <Footer/>
     </div>
   );
 }
