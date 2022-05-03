@@ -1,8 +1,8 @@
-import React from "react";
-import imagem404 from "assets/img-404.png";
-import styles from "pages/Pagina404.module.scss";
-import Header from "components/Header";
-import { Link } from "react-router-dom";
+import React from 'react';
+import imagem404 from 'assets/img-404.png';
+import styles from 'pages/Pagina404.module.scss';
+import Header from 'components/Header';
+import { Link } from 'react-router-dom';
 
 export default function Pagina404() {
   return (

@@ -1,11 +1,11 @@
-import GridCards from "components/Cards/GridCards";
-import Header from "components/Header";
-import InputSearch from "components/InputSearch";
-import React from "react";
-import styles from "../pages/Home.module.scss";
+import GridCards from 'components/Cards/GridCards';
+import Header from 'components/Header';
+import InputSearch from 'components/InputSearch';
+import React from 'react';
+import styles from '../pages/Home.module.scss';
 
 function Home() {
-  const [busca, setBusca] = React.useState("");
+  const [busca, setBusca] = React.useState('');
   return (
     <div>
       <Header />
