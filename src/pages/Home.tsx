@@ -1,6 +1,4 @@
 import GridCards from 'components/Cards/GridCards';
-import Footer from 'components/Footer';
-import Header from 'components/Header';
 import InputSearch from 'components/InputSearch';
 import React from 'react';
 import styles from '../pages/Home.module.scss';
