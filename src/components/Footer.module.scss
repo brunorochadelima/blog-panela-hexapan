@@ -1,0 +1,30 @@
+@import 'styles/variaveis.scss';
+
+.container__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: $dark;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size: .9rem;
+  background-color: $dark;
+  margin: 0;
+  padding: .5rem;
+  padding-bottom: 2rem;
+}
+
+.icon_color {
+  color: #fff;
+}
+
+.icon_color:hover {
+  color: #77bab4;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
