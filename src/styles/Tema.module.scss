@@ -1,0 +1,17 @@
+@import 'styles/variaveis.scss';
+@import 'styles/breakpoints.scss';
+
+.container {
+  @media (max-width: $mobile) {
+    padding: 20px $padding-horizontal-mobile;
+    justify-content: center;
+  }
+
+  @media (min-width: $mobile) and (max-width: $desktop_lg) {
+    padding: 20px $padding-horizontal-lg;
+  }
+
+  @media (min-width: $desktop_lg) {
+    padding: 20px $padding-horizontal-xl;
+  }
+}

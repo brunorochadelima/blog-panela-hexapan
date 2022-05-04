@@ -2,11 +2,12 @@ import GridCards from 'components/Cards/GridCards';
 import InputSearch from 'components/InputSearch';
 import React from 'react';
 import styles from '../pages/Home.module.scss';
+import stylesTema from 'styles/Tema.module.scss';
 
 function Home() {
   const [busca, setBusca] = React.useState('');
   return (
-    <div>
+    <div className={stylesTema.container}>
       <div className={styles.container}>
         <div className={styles.centralizar}>
           <h1 className={styles.titulo_destaque}>

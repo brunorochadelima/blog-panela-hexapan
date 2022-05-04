@@ -1,53 +1,40 @@
-@import "styles/variaveis.scss";
-@import "styles/breakpoints.scss";
-@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import 'styles/variaveis.scss';
+@import 'styles/breakpoints.scss';
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.centralizar {
+  display: grid;
+  place-items: center;
+}
+
+.titulo_destaque {
+  font-size: 4rem;
+  font-weight: 400;
+  color: $dark;
+  text-align: center;
+  margin: 0.5rem;
+
+  @media (max-width: $mobile) {
+    font-size: 2rem;
+    margin-top: 2.8rem;
+  }
+}
+
+.subtitulo_destaque {
+  font-family: 'Ms Madi', cursive;
+  color: $grey;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-top: 1rem;
+
+  @media (max-width: $mobile) {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
 
 .container {
-  @media (max-width: $mobile) {
-    padding: 20px $padding-horizontal-mobile;
-    justify-content: center;
-  }
-
-  @media (min-width: $mobile) and (max-width: $desktop_lg) {
-    padding: 20px $padding-horizontal-lg;
-  }
-
-  @media (min-width: $desktop_lg) {
-    padding: 20px $padding-horizontal-xl;
-  }
-
-  .centralizar {
-    display: grid;
-    place-items: center;
-  }
-
-  .titulo_destaque {
-    font-size: 4rem;
-    font-weight: 400;
-    color: $dark;
-    text-align: center;
-    margin: 0.5rem;
-
-    @media (max-width: $mobile) {
-      font-size: 2rem;
-      margin-top: 2.8rem;
-    }
-  }
-
-  .subtitulo_destaque {
-    font-family: "Ms Madi", cursive;
-    color: $grey;
-    text-align: center;
-    font-size: 2.8rem;
-    margin-top: 1rem;
-
-    @media (max-width: $mobile) {
-      font-size: 1.5rem;
-      margin-top: 0.5rem;
-    }
-  }
-
-  @media (min-width: $mobile) {
+   @media (min-width: $mobile) {
     background-image: url(../assets/itens-culinaria-banner-destaque.svg);
     background-repeat: no-repeat;
     background-position: top center;
