@@ -1,4 +1,4 @@
-@import "styles/variaveis.scss";
+@import 'styles/variaveis.scss';
 
 .pagina_404 {
   color: $grey;
@@ -27,15 +27,12 @@
   }
 
   .botao__voltar {
-    display: block;
-    text-align: center;
-
-    button {
-      border-radius: 10px;
-      border: none;
-      padding: 1rem;
-      background-color: $cyan;
-      cursor: pointer;
-    }
+    border-radius: 10px;
+    border: none;
+    padding: 1rem 3rem;
+    background-color: $cyan;
+    cursor: pointer;
   }
+  
 }
+

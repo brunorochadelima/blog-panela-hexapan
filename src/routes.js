@@ -7,13 +7,15 @@ import Footer from 'components/Footer';
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<Pagina404 />} />
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
+    <main className="container">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Pagina404 />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </main>
   );
 }
