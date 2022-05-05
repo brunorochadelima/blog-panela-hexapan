@@ -22,7 +22,9 @@ export default function Post() {
           <img className={styles.post__img} src={post.photo} alt={post.title} />
         </div>
         <p className={styles.post__data}>{post.date}</p>
-        <p className={styles.post__descricao}>{post.description}</p>
+        <p className={styles.post__descricao}>{post.description.paragrafo_1}</p>
+        <p className={styles.post__descricao}>{post.description.paragrafo_2}</p>
+        <p className={styles.post__descricao}>{post.description.paragrafo_3}</p>
         <button className={styles.post__voltar} onClick={() => navigate(-1)}>
           {'< Voltar'}
         </button>
