@@ -7,6 +7,8 @@ import stylesTema from 'styles/Tema.module.scss';
 function Home() {
   const [busca, setBusca] = React.useState('');
   return (
+
+    
     <div className={stylesTema.container}>
       <div className={styles.container}>
         <div className={styles.centralizar}>
