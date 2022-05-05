@@ -3,9 +3,11 @@
 .card {
   width: 100%;
   max-width: 436px;
+  cursor: pointer;
   
   img {
     width: 100%;
+    border-radius: 15px;
   }
 
   h2 {
@@ -15,4 +17,5 @@
   p {
     color: $grey;
   }
+
 }
