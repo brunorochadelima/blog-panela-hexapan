@@ -30,7 +30,7 @@ export default function GridCards(props: Props) {
   return (
     <div className={styles.grid_card}>
       {lista.map((item) => (
-        <div key={item.title} onClick={() => redirecionaParaDetalhes(item)}>
+        <div key={item.id} onClick={() => redirecionaParaDetalhes(item)}>
           <Card {...item} />
         </div>
       ))}
