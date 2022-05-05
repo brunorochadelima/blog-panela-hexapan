@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "photo": "/assets/img-posts/hexapan-post-1.png",
+    "photo": "/assets/img-posts/hexapan-post-3.jpeg",
     "date": "29/04/2022",
     "title": "Praesent sed elit volutpat",
     "resume": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College",
@@ -14,7 +14,7 @@
 
   {
     "id": 2,
-    "photo": "/assets/img-posts/hexapan-post-2.png",
+    "photo": "/assets/img-posts/hexapan-post-2.jpeg",
     "date": "29/04/2022",
     "title": "Praesent sed elit volutpat",
     "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
@@ -25,8 +25,8 @@
   },
 
   {
-    "id": 2,
-    "photo": "/assets/img-posts/hexapan-post-3.png",
+    "id": 3,
+    "photo": "/assets/img-posts/hexapan-post-3.jpeg",
     "date": "29/04/2022",
     "title": "dummy text of the printing",
     "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
@@ -37,8 +37,8 @@
   },
 
   {
-    "id": 2,
-    "photo": "/assets/img-posts/hexapan-post-1.png",
+    "id": 4,
+    "photo": "/assets/img-posts/hexapan-post-4.jpg",
     "date": "20/03/2022",
     "title": "There are many variations",
     "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
@@ -49,8 +49,20 @@
   },
 
   {
-    "id": 2,
-    "photo": "/assets/img-posts/hexapan-post-2.png",
+    "id": 5,
+    "photo": "/assets/img-posts/hexapan-post-3.jpeg",
+    "date": "01/06/2022",
+    "title": "Praesent sed elit volutpat",
+    "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
+    "description": {
+      "paragrafo_1": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+      "paragrafo_2": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes"
+    }
+  },
+
+  {
+    "id": 6,
+    "photo": "/assets/img-posts/hexapan-post-1.jpg",
     "date": "29/04/2022",
     "title": "Praesent sed elit volutpat",
     "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
@@ -59,16 +71,27 @@
       "paragrafo_2": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
     }
   },
-
-  {
-    "id": 2,
-    "photo": "/assets/img-posts/hexapan-post-3.png",
+    {
+    "id": 5,
+    "photo": "/assets/img-posts/hexapan-post-3.jpeg",
     "date": "01/06/2022",
     "title": "Praesent sed elit volutpat",
     "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
     "description": {
       "paragrafo_1": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
       "paragrafo_2": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes"
+    }
+  },
+
+  {
+    "id": 6,
+    "photo": "/assets/img-posts/hexapan-post-1.jpg",
+    "date": "29/04/2022",
+    "title": "Praesent sed elit volutpat",
+    "resume": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
+    "description": {
+      "paragrafo_1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "paragrafo_2": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
     }
   }
 ]
