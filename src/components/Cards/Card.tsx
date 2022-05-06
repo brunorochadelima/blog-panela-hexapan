@@ -1,11 +1,8 @@
 import React from 'react';
 import styles from 'components/Cards/Card.module.scss';
-import cards from 'data/cards.json';
+import { Card_Post } from 'types/Card';
 
-type Props = typeof cards[0];
-
-
-export default function Card(props: Props) {
+export default function Card (props: Card_Post) {
   const { photo, date, title, resume} = props;
 
   return (

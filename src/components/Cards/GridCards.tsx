@@ -3,6 +3,7 @@ import Card from './Card';
 import cards from 'data/cards.json';
 import styles from 'components/Cards/GridCards.module.scss';
 import { useNavigate } from 'react-router-dom';
+import { Card_Post } from 'types/Card';
 
 interface Props {
   busca: string;
@@ -18,7 +19,7 @@ export default function GridCards(props: Props) {
     return regex.test(title);
   }
 
-  function redirecionaParaDetalhes(post: typeof cards[0]) {
+  function redirecionaParaDetalhes(post: Card_Post) {
     navigate(`/post/${post.id}`, { state: { post } });
   }
 
