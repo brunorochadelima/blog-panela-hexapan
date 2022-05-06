@@ -8,7 +8,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 export default function Footer() {
   return (
     <div>
-      <div className={styles.container__footer}>
+      <div className={styles.footer}>
         <img src={logo} alt="Logo Hexapan" />
         <div>
           <a
@@ -16,7 +16,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <AiOutlineWhatsApp className={styles.icon_color} size={33} />
+            <AiOutlineWhatsApp className={styles.footer__icon} size={33} />
           </a>
           <a
             href="https://www.facebook.com/hexapanbrasil/"
@@ -24,7 +24,7 @@ export default function Footer() {
             rel="noreferrer"
           >
             {' '}
-            <AiOutlineFacebook className={styles.icon_color} size={33} />
+            <AiOutlineFacebook className={styles.footer__icon} size={33} />
           </a>
           <a
             href="https://www.instagram.com/hexapanbrasil/"
@@ -32,11 +32,11 @@ export default function Footer() {
             rel="noreferrer"
           >
             {' '}
-            <AiOutlineInstagram className={styles.icon_color} size={33} />
+            <AiOutlineInstagram className={styles.footer__icon} size={33} />
           </a>
         </div>
       </div>
-      <p className={styles.copyright}>
+      <p className={styles.footer__copyright}>
         A Hexapan pertence ao Grupo Multivisi. © Copyright 2022. Todos os
         direitos reservados.
       </p>
