@@ -4,12 +4,13 @@ import cards from 'data/cards.json';
 import { useNavigate } from 'react-router-dom';
 import styles from './Post.module.scss';
 import stylesTema from 'styles/Tema.module.scss';
+import Pagina404 from 'pages/Pagina404';
 
 export default function Post() {
   const { id } = useParams();
   const post = cards.find((item) => item.id === Number(id));
   if (!post) {
-    return 'null';
+    return <Pagina404 />;
   }
 
   const navigate = useNavigate();
