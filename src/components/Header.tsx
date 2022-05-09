@@ -14,14 +14,14 @@ export default function Header() {
         <img className={styles.logo} src={logo} alt="Logo Hexapan" />
       </Link>
 
-      <div className={styles.social_icons}>
+      <div className={styles.header__icons_container}>
         <a
           href="https://api.whatsapp.com/send?phone=553484070716&text=Ola%20Multivisi"
           target="_blank"
           rel="noreferrer"
         >
           {' '}
-          <AiOutlineWhatsApp className={styles.icon_color} size={33} />
+          <AiOutlineWhatsApp className={styles.header__icons_container__icon} size={33} />
         </a>
         <a
           href="https://www.facebook.com/hexapanbrasil/"
@@ -29,7 +29,7 @@ export default function Header() {
           rel="noreferrer"
         >
           {' '}
-          <AiOutlineFacebook className={styles.icon_color} size={33} />
+          <AiOutlineFacebook className={styles.header__icons_container__icon} size={33} />
         </a>
         <a
           href="https://www.instagram.com/hexapanbrasil/"
@@ -37,7 +37,7 @@ export default function Header() {
           rel="noreferrer"
         >
           {' '}
-          <AiOutlineInstagram className={styles.icon_color} size={33} />
+          <AiOutlineInstagram className={styles.header__icons_container__icon} size={33} />
         </a>
       </div>
     </header>

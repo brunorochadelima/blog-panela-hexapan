@@ -7,10 +7,8 @@ import stylesTema from 'styles/Tema.module.scss';
 function Home() {
   const [busca, setBusca] = React.useState('');
   return (
-
-    
     <div className={stylesTema.container}>
-      <div className={styles.container}>
+      <div className={styles.home_background}>
         <div className={styles.centralizar}>
           <h1 className={styles.titulo_destaque}>
             Uma panela como <br />

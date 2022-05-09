@@ -33,8 +33,8 @@
   }
 }
 
-.container {
-   @media (min-width: $mobile) {
+.home_background {
+  @media (min-width: $mobile) {
     background-image: url(../assets/itens-culinaria-banner-destaque.svg);
     background-repeat: no-repeat;
     background-position: top center;
