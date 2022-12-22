@@ -1,3 +1,5 @@
+![texto](https://i.postimg.cc/59L3sZhV/panela-hexapan.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
